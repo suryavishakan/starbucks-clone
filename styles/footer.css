@@ -1,71 +1,75 @@
+/*===== Footer Section ===== */
 
-footer{
-    padding: 1.5rem 0;
-    box-shadow: 0 2px 6px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 12%), 0 0 2px rgb(0 0 0 / 14%);
-}
-
-.footer-container{
-    padding: 0 2.5rem;
-    display: flex;
-    max-width: 1440px;
-    margin: 0 auto;
+footer {
+  padding: 1.5rem 0;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 12%),
+    0 0 2px rgb(0 0 0 / 14%);
 }
 
-.footer-container ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.footer-container {
+  padding: 0 2.5rem;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.footer-container ul li{
-    color: rgba(0,0,0,0.56);
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    margin-bottom: 0.8rem;
-    cursor: pointer;
+.footer-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.footer-container ul li:hover{
-    color: rgba(0,0,0,0.87);
-}
-.links-container{
-    width: 190px;
-    margin-right: 4rem;
-}
-
-.footer h3{
-    font-weight: 400;
-    margin-bottom: 1.5rem;
+.footer-container ul li {
+  color: rgba(0, 0, 0, 0.56);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
 }
 
-.media-icons,.terms, .copyrights{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-left: 2rem;
-    margin-bottom: 2rem;
+.footer-container ul li:hover {
+  color: rgba(0, 0, 0, 0.87);
 }
-.media-icons{
-    margin-top: 1.5rem;
+.links-container {
+  width: 190px;
+  margin-right: 4rem;
 }
 
-.terms span{
-    padding-right: 2rem;
-    border-right: 1px solid;
-    
-}
-.terms span + span{
-    padding-left: 1rem;
+.footer h3 {
+  font-weight: 400;
+  margin-bottom: 1.5rem;
 }
 
-.media-icons i{
-    font-size: 2rem;
-    padding-right:1rem ;
-    transition: all 0.2s ease;
+.media-icons,
+.terms,
+.copyrights {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
 }
-.media-icons i:hover{
-    color: rgba(0,0,0,0.5);
+.media-icons {
+  margin-top: 1.5rem;
 }
 
-.terms, .copyrights{
-    color: rgba(0,0,0,0.56);
+.terms span {
+  padding-right: 2rem;
+  border-right: 1px solid;
+}
+.terms span + span {
+  padding-left: 1rem;
+}
+
+.media-icons i {
+  font-size: 2rem;
+  padding-right: 1rem;
+  transition: all 0.2s ease;
+}
+.media-icons i:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.terms,
+.copyrights {
+  color: rgba(0, 0, 0, 0.56);
 }
